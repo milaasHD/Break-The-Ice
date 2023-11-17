@@ -77,13 +77,13 @@ body{
 }
 #butt{
     font-family: "Italiana", sans-serif;
-    font-size: 5.5vw;
+    font-size: 2.5vw;
     -webkit-text-stroke: 1px black
 
 }
 #spin{
     font-family: "Agbalumo", sans-serif;
-    font-size: 5.3vw;
+    font-size: 2.3vw;
 
 }
 #butt, #spin {
@@ -105,7 +105,7 @@ body{
 }
 
 #start{
-    padding: 10vw;
+    padding: 2vw;
     background-color: #651d1d;
     border: 7vw #340f0f solid;
     border-radius: 6vw;
@@ -116,7 +116,7 @@ body{
 
     text-align: center;
     color: white;
-    font-size: 60%;
+    font-size: 5vw;
     font-family: "Nunito", sans-serif;
 }
 
@@ -137,7 +137,7 @@ body{
 }
 
 #scroll:hover{
-    color: gray;
+    : gray;
 }
 
 .squiggly{
@@ -146,10 +146,22 @@ body{
      margin-bottom: 300px;
 
      height: 200vw;
-     width: 30vw;
-     margin-left: 30vw;
+     width: 40vw;
+     margin-left: 25vw
 
  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 100px) and (max-width: 400px){
     body{
@@ -222,6 +234,13 @@ body{
 
 }
 
+
+
+
+
+
+
+
 @media screen and (min-width: 400px) and (max-width: 1000px){
     body{
         background-color: green;
@@ -248,7 +267,7 @@ body{
 
     .sec, .sectwo{
         flex: 1;
-        font-size: 2vw;
+        font-size: 3.5vw;
         margin: 2vw;
         padding: 2vw;
         border-radius: 10px;
@@ -258,7 +277,7 @@ body{
     .squiggly{
         margin-top: -10vw;
         margin-bottom: 3vw;
-        margin-left: 110px;
+        margin-left: 10vw;
         height: 290vw;
         width: 70vw;}
 
@@ -279,6 +298,37 @@ body{
         color: white;
         font-size: 7vw;
         font-family: "Nunito", sans-serif;
+    }
+    #start{
+        padding: 2vw;
+        background-color: #651d1d;
+        border: 3vw #340f0f solid;
+        border-radius: 6vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #butt, #spin {
+        background-color: #FFFFFF;
+        border: 4vw solid #FFFFFF;
+        border-radius: 10vw;
+        color: black;
+        margin-bottom: 30px;
+        padding: 2vw;
+
+        opacity: 0.8;
+        transition: background-color 0.3s ease, opacity 0.3s ease;
+    }
+    #butt{
+        font-family: "Italiana", sans-serif;
+        font-size: 2.5vw;
+        -webkit-text-stroke: 1px black
+
+    }
+    #spin{
+        font-family: "Agbalumo", sans-serif;
+        font-size: 2.3vw;
+
     }
 }
 
