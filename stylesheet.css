@@ -19,11 +19,11 @@ body{
     color: white;
     text-align: center;
     font-size: 7vw;
-    border: 20px #340f0f solid;
+    border: 1.5vw #340f0f solid;
     padding: 2vw;
     margin-bottom: 150px;
     background-color: #651d1d;
-    border-radius: 40px;
+    border-radius: 4vw;
 }
 
 .container{
@@ -42,9 +42,9 @@ body{
     padding: 5vw;
     text-align: center;
     font-weight: bold;
-    box-shadow: 10px 10px  10px black;
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
+    box-shadow: 1vw 1vw  1vw black;
+    border-bottom-left-radius: 3vw;
+    border-top-left-radius: 3vw;
     margin-left: 7vw;
     background-color: #651d1d;
 }
@@ -55,10 +55,10 @@ body{
     text-align: center;
     padding: 5vw;
     font-weight: bold;
-    box-shadow: 10px 10px  10px black;
+    box-shadow: 1vw 1vw  1vw black;
     background-color: #651d1d;
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
+    border-bottom-right-radius: 3vw;
+    border-top-right-radius: 3vw;
     border-left: 2px;
 }
 .hidden{
@@ -91,7 +91,7 @@ body{
 #butt, #spin {
     background-color: #FFFFFF;
     border: 2px solid #FFFFFF;
-    border-radius: 20%;
+    border-radius: 2vw;
     color: black;
 
     padding: 8%;
@@ -109,8 +109,8 @@ body{
 #start{
 
     background-color: #651d1d;
-    border: 3vw #340f0f solid;
-    border-radius: 6vw;
+    border: 1.5vw #340f0f solid;
+    border-radius: 2vw;
 
 }
 #choose{
@@ -173,11 +173,11 @@ body{
         color: white;
         text-align: center;
         font-size: 7vw;
-        border: 3vw #340f0f solid;
+        border: 1.5vw #340f0f solid;
         padding: 2vw;
         margin-bottom: 15vw;
         background-color: #651d1d;
-        border-radius: 40px;
+        border-radius: 4vw;
     }
     .container{
         display: flex;
@@ -194,7 +194,7 @@ body{
         margin: 2vw;
         padding: 2vw;
         border-radius: 10px;
-        box-shadow: 5px 5px  5px black;
+        box-shadow: 1vw 1vw  1vw black;
 
     }
     .squiggly{
@@ -209,7 +209,7 @@ body{
 
         position: absolute;
         right: 2%;
-        top: 29%;
+        top: 55vw;
         width: 15vw;
         height: 10vw;
 
@@ -262,11 +262,11 @@ body{
         color: white;
         text-align: center;
         font-size: 7vw;
-        border: 3vw #340f0f solid;
+        border: 1.5vw #340f0f solid;
         padding: 2vw;
         margin-bottom: 15vw;
         background-color: #651d1d;
-        border-radius: 40px;
+        border-radius: 4vw;
     }
     .container{
         display: flex;
@@ -315,7 +315,7 @@ body{
         text-align: center;
 
         background-color: #651d1d;
-        border: 3vw #340f0f solid;
+        border: 1.5vw #340f0f solid;
         border-radius: 6vw;
 
     }
@@ -349,8 +349,8 @@ body{
 
 footer {
     background-color: #651d1d;
-    border: 3vw #340f0f solid;
-    border-radius: 10vw;
+    border: 1.5vw #340f0f solid;
+    border-radius: 2vw;
     padding: 2vw 0; /* Adjusted from 20px to 2vw */
     color: white;
     text-align: center;
