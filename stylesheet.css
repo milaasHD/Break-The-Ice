@@ -107,7 +107,7 @@ body{
 #start{
     padding: 2vw;
     background-color: #651d1d;
-    border: 7vw #340f0f solid;
+    border: 3vw #340f0f solid;
     border-radius: 6vw;
     margin-left: 0;
     margin-right: 0;
@@ -137,7 +137,7 @@ body{
 }
 
 #scroll:hover{
-    : gray;
+    -webkit-filter: drop-shadow(4px 4px 5px  rgba(0,0,0,0.5));
 }
 
 .squiggly{
