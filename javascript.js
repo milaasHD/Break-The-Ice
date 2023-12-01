@@ -58,14 +58,14 @@ addEventListener("DOMContentLoaded", function (){
     classicalBtn.onclick = function() {
         initialChoice = 'classical';
         content_first.style.display = "inline"
-        content_second.style.display = "none"
+
         showModal();
     };
 
     spinBtn.onclick = function() {
         initialChoice = 'spin';
         content_first.style.display = "inline"
-        content_second.style.display = "none"
+
         showModal();
     };
     span.onclick = closeModal;
@@ -98,10 +98,10 @@ addEventListener("DOMContentLoaded", function (){
     let continues = document.getElementById("conti")
     let content_first = document.getElementById("TutInput")
     let content_second = document.getElementById("TutContent")
+    let modal_content = document.querySelector(".modal-content")
 
     tutorialBtn.addEventListener('click', function() {
-        content_first.style.display = "none"
-        content_second.style.display = "inline"
+        window.location.href = "tutorial.html"
 
 
 
